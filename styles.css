@@ -1,0 +1,49 @@
+* {
+    background-color: gray;
+    text-align: center;
+    font-family: sans-serif;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -ms-touch-select: none;
+    -webkit-user-select: none;
+}
+#title {
+    text-decoration: underline;
+}
+#mobile {
+    display: none;
+}
+#canvas {
+    display: block;
+    margin: 0 auto;
+}
+#div {
+    display: flex;
+    justify-content: center;
+}
+#score {
+    color: crimson;
+    margin-right: 30px;
+}
+#highscore {
+    color: floralwhite;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 720px) {
+    #score {
+        display: none;
+    }
+    #highscore {
+        display: none;
+    }
+    #canvas {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    #mobile {
+        display: block;
+    }
+}
