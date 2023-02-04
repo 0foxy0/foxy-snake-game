@@ -20,10 +20,8 @@ p {
   font-weight: bold;
   font-size: 20px;
 }
-#score {
-  margin-right: 3em;
-}
 #highscore {
+  margin-left: 3em;
   color: rgb(224, 198, 0);
 }
 
